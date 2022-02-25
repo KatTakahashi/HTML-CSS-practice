@@ -9,14 +9,53 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <container>
-      <header></header>
+    <div class="container">
+      <header>
+        <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="Profile"></a></h1>
+      </header>
+
       <main>
-        <div id="mainvisual"></div>
-        <div id="index"></div>
-        <div id="detail"></div>
+        <div id="mainvisual" class="wrapper">
+          <img src="img/mainvisual.jpg" alt="main-visual">
+        </div>
+
+        <section id="index">
+          <div class="inner">
+            <h2 class="section-title">INDEX</h2>
+            <ol>
+              <li>タイトルタイトルタイトルタイトルタイトル</li>
+              <li>タイトルタイトルタイトルタイトルタイトル</li>
+              <li>タイトルタイトルタイトルタイトルタイトル</li>
+              <li>タイトルタイトルタイトルタイトルタイトル</li>
+              <li>タイトルタイトルタイトルタイトルタイトル</li>
+            </ol>
+          </div>
+        </section>
+
+        <section id="detail" class="wrapper">
+          <h2 class="section-title">DETAIL</h2>
+          <div id="detail-box">
+            <img src="img/detail.jpg" alt="detail">
+            <div>
+              <h3 class="detail-item">タイトルタイトルタイトル</h3>
+              <dl class="detail-item">
+                <dt>著者</dt>
+                <dd>テキストテキスト</dd>
+                <dt>出版社</dt>
+                <dd>テキストテキスト</dd>
+                <dt>発行年</dt>
+                <dd>テキストテキスト</dd>
+              </dl>
+              <p class="detail-item">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <p><a href="index.html">オンラインストアで見る</a></p>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer></footer>
-    </container>
+
+      <footer>
+        <p>&copy;2020 PHOTO BOOK</p>
+      </footer>
+    </div>
   </body>
 </html>

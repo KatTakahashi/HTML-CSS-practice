@@ -5,3 +5,108 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  padding-top: 50px;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin-bottom: 50px;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+header {
+  width: 100%;
+}
+
+header h1 a img {
+  width: 200px;
+}
+
+/*-------------------------------------------
+セクション：全般
+-------------------------------------------*/
+section,
+section .inner {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin-bottom: 10px;
+}
+
+/*-------------------------------------------
+セクション：index
+-------------------------------------------*/
+#index {
+  margin: 0 auto 50px;
+  padding: 30px 0;
+  width: 1000px;
+  background-color: #fff;
+}
+
+#index div ol {
+  margin-left: 20px;
+}
+
+#index div ol li {
+  line-height: 2;
+}
+
+/*-------------------------------------------
+セクション：detail
+-------------------------------------------*/
+#detail-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+#detail-box img,
+#detail-box div {
+  max-width: 50%;
+}
+
+#detail-box div {
+  margin-left: 30px;
+}
+
+.detail-item {
+  margin-bottom: 10px;
+}
+
+dl {
+  padding: 20px 0;
+  border-top: 0.5px solid gray;
+  border-bottom: 0.5px solid gray;
+}
+
+dt {
+  float: left;
+  width: 30%;
+}
+
+dd {
+  margin-left: 10px;
+}
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+footer {
+  text-align: center;
+  font-size: small;
+}
