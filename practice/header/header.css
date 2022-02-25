@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* リンクのアンダーバーを無くす設定 */
 a {
   text-decoration: none;
@@ -27,16 +33,16 @@ li {
 header-1 参考：https://code-step.com/profile-menu/
 -------------------------------------------*/
 #header-1 {
-  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 50px;
   margin: 0 auto;
   background-color: #ddffff;
 }
 #header-1 h1 a img {
-  height: 30px;
   vertical-align: middle;
+  height: 30px;
 }
 #header-1 ul {
   display: flex;
@@ -64,5 +70,26 @@ header-1 参考：https://code-step.com/profile-menu/
   -------------------------------------------*/
 
 /*-------------------------------------------
-header-2
+CSS 書き順  参考：https://qiita.com/mgn/items/6154ccd2e23b2e65c769
 -------------------------------------------*/
+/* Suggested order:
+  * display
+  * list-style
+  * position
+  * float
+  * clear
+  * width
+  * height
+  * margin
+  * padding
+  * border
+  * background
+  * color
+  * font
+  * text-decoration
+  * text-align
+  * vertical-align
+  * white-space
+  * other text
+  * content
+ */
