@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+  background-color: fff;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+header {
+  width: 100%;
+}
+
+header h1 a img {
+  width: 180px;
+}
+
+/*-------------------------------------------
+セクション：全般
+-------------------------------------------*/
+section {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: large;
+}
+
+/*-------------------------------------------
+セクション：index
+-------------------------------------------*/
+#index {
+  margin: 30px auto;
+  padding: 50px;
+  background-color: #eeeeee;
+}
+
+.inner {
+  display: table;
+  margin: 0 auto;
+}
+
+/* CSS不明点 */
+/* display: table; margin: 0 auto; でリストを中央揃えできること */
